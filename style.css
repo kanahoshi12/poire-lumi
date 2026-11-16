@@ -372,6 +372,7 @@ button { background: none; border: none; cursor: pointer; }
   flex: 0 1 auto;
   min-width: 0;
   align-self: center;
+  text-align: center;
 }
 .banner__badge {
   display: inline-block;
@@ -422,7 +423,9 @@ button { background: none; border: none; cursor: pointer; }
 }
 @media (max-width: 340px) {
   .banner__big { white-space: normal; }
-  .banner__big em { display: table; margin: 2px 0 0; }
+  .banner__big em { display: table; margin: 2px auto 0; }
+  .banner__box .banner__link { letter-spacing: 0.02em; gap: 6px; }
+  .banner__box .banner__arrow { transform: scale(0.88); }
 }
 .banner__link {
   display: inline-flex;
@@ -430,8 +433,9 @@ button { background: none; border: none; cursor: pointer; }
   gap: 8px;
   font-family: var(--sans);
   font-weight: 500;
-  font-size: 13px;
-  letter-spacing: 0.12em;
+  font-size: clamp(11px, 3.3vw, 13px);
+  letter-spacing: 0.06em;
+  white-space: nowrap;
   line-height: 1.5;
   color: var(--teal-deep);
 }
