@@ -870,11 +870,11 @@ button { background: none; border: none; cursor: pointer; }
   gap: 4px;
   aspect-ratio: 1;
   border-radius: 50%;
-  background: linear-gradient(135deg, rgba(8,42,50,0.82), rgba(8,42,50,0.5));
-  border: 1px solid rgba(255,255,255,0.3);
+  background: linear-gradient(135deg, #D8B764 0%, #B48A33 55%, #8F6A1E 100%);
+  border: 1px solid #F3E3B4;
   box-shadow:
-    0 0 0 4px rgba(255,255,255,0.07),
-    inset 0 1px 0 rgba(255,255,255,0.14),
+    0 0 0 4px rgba(243,227,180,0.16),
+    inset 0 1px 0 rgba(255,255,255,0.3),
     0 6px 16px rgba(0,0,0,0.14);
 }
 @media (max-width: 340px) {
@@ -883,10 +883,10 @@ button { background: none; border: none; cursor: pointer; }
 }
 .tech-card__lead {
   font-family: var(--serif);
-  font-weight: 300;
+  font-weight: 500;
   font-size: 11px;
   letter-spacing: 0.12em;
-  color: rgba(255,255,255,0.85);
+  color: #FFF6DC;
 }
 .tech-card__main {
   font-family: var(--serif);
