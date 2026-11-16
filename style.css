@@ -774,6 +774,20 @@ button { background: none; border: none; cursor: pointer; }
   line-height: 1;
   letter-spacing: 0.02em;
   color: var(--teal-deep);
+  position: relative;
+  z-index: 0;
+}
+/* フレームの内側（細い線の中）を楕円で塗り、中央が明るいグラデにする */
+.feat-num::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  left: 15.6%;
+  right: 15.6%;
+  top: 11.6%;
+  bottom: 11.6%;
+  border-radius: 50%;
+  background: radial-gradient(ellipse at 50% 46%, #FFFFFF 0%, #F6F9DA 42%, #E3EDA9 100%);
 }
 .feat-title {
   display: flex;
