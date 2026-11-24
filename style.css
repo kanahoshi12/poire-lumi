@@ -52,17 +52,17 @@ img { max-width: 100%; display: block; }
 a { color: inherit; text-decoration: none; }
 .nw { white-space: nowrap; }
 .text-link { text-decoration: underline; text-underline-offset: 3px; }
-/* LINE に飛ぶボタンに付ける吹き出しアイコン（LINE のグリーン） */
+/* LINE に飛ぶボタンに付ける LINE 公式のアプリアイコン（配布データを縮小しただけ。色・形は変えない） */
 .line-icon {
-  width: 18px;
-  height: 18px;
-  margin-right: 7px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
   vertical-align: -4px;
-  fill: #06C755;
 }
-.follow__btn .line-icon { width: 15px; height: 15px; margin-right: 5px; vertical-align: -3px; }
+.follow__btn .line-icon { width: 17px; height: 17px; margin-right: 6px; vertical-align: -3px; }
 @media (max-width: 360px) { .follow__btn .line-icon, .hero-btn .line-icon { display: none; } }
-@media (max-width: 340px) { .line-icon { width: 16px; height: 16px; margin-right: 5px; } }
+@media (max-width: 340px) { .line-icon { width: 18px; height: 18px; margin-right: 6px; } }
 button { background: none; border: none; cursor: pointer; }
 
 /* ============ Header ============ */
