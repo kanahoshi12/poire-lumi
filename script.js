@@ -50,7 +50,7 @@ const io = new IntersectionObserver((entries) => {
 document.querySelectorAll('[data-reveal]').forEach(el => io.observe(el));
 
 // Item reveal: cards, tables and photos appear one by one as they enter the screen
-const revealItems = document.querySelectorAll('.feat-item, .bonus, .tech-card, .full-img, .cmp-table, .spec-list, .store-card, .why-pills li, .why-card');
+const revealItems = document.querySelectorAll('.feat-item, .bonus, .tech-card, .full-img, .cmp-table, .spec-list, .store-card, .why-pills li, .why-card, .salon-card, .size-fig');
 revealItems.forEach((el) => {
   el.classList.add('reveal-item');
   if (el.matches('.tech-card, .why-pills li')) {
