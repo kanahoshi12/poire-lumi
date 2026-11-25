@@ -533,7 +533,7 @@ button { background: none; border: none; cursor: pointer; }
 /* ============ H1 (subtitle 役) ============ */
 .h1 {
   font-family: var(--serif);
-  font-weight: 500;
+  font-weight: 600;
   font-size: clamp(17px, 5.7vw, 23px);
   line-height: 2;
   letter-spacing: 0.06em;
@@ -541,7 +541,7 @@ button { background: none; border: none; cursor: pointer; }
   margin: 0 -16px 44px;
   white-space: nowrap;
 }
-.h1--teal  { color: var(--teal-mid); font-weight: 500; font-size: clamp(20px, 6vw, 24px); }
+.h1--teal  { color: var(--teal-mid); font-weight: 600; font-size: clamp(20px, 6vw, 24px); }
 .h1--white { color: var(--white); font-size: clamp(17px, 5.9vw, 24px); }
 
 /* ============ Body text ============ */
@@ -862,7 +862,7 @@ button { background: none; border: none; cursor: pointer; }
 .tech-cards { position: relative; }
 .tech-panel__title {
   font-family: var(--serif);
-  font-weight: 500;
+  font-weight: 600;
   font-size: clamp(17px, 5.5vw, 23px);
   line-height: 1.6;
   letter-spacing: 0.06em;
